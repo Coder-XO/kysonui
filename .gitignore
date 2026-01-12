@@ -1,0 +1,41 @@
+# Common
+dist
+dist-ssr
+node_modules
+.eslintcache
+vite.config.*.timestamp*
+*.tsbuildinfo
+*.tsbuildinfo.*
+coverage
+
+# Vite cache
+.vite
+
+# VitePress
+**/.vitepress/cache/
+**/.vitepress/dist/
+
+# pnpm
+.pnpm-store
+
+# MacOS
+.DS_Store
+
+# WebStorm
+.idea
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# Local env files
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+*.log
+
+# Using pnpm and bun
+yarn.lock
