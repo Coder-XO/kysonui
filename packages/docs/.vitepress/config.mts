@@ -2,9 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "oui",
+  title: "kysonui",
   description: "通用组件库",
-  base: '/oui/',
+  base: '/kysonui/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

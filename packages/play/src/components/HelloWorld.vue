@@ -3,7 +3,7 @@ defineProps<{ msg: string }>()
 </script>
 
 <template>
-  <OyButton>Hello World</OyButton>
+  <KyButton type="primary" size="large">Hello World</KyButton>
 </template>
 
 <style scoped>

@@ -1,6 +1,5 @@
 import { createApp } from 'vue'
-import '@oui/theme/index.css';
 import App from './App.vue'
-import OyUI from '@oui/core';
+import KysonUI from '@kysonui/core';
 
-createApp(App).use(OyUI).mount('#app')
+createApp(App).use(KysonUI).mount('#app')

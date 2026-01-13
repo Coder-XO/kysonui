@@ -1,8 +1,8 @@
-import { makeInstaller } from "@oui/utils";
+import { makeInstaller } from "@kysonui/utils";
 import components from './components';
-import '@oui/theme/index.css';
+import '@kysonui/theme/index.css';
 
 const installer = makeInstaller(components);
 
-export * from '@oui/components';
+export * from '@kysonui/components';
 export default installer;

@@ -1,3 +1,3 @@
-import { withInstall } from '@oui/utils';
+import { withInstall } from '@kysonui/utils';
 import Button from './Button.vue';
-export const OyButton = withInstall(Button);
+export const KyButton = withInstall(Button);

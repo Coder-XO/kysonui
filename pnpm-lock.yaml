@@ -8,16 +8,16 @@ importers:
 
   .:
     dependencies:
-      '@oui/core':
+      '@kysonui/core':
         specifier: workspace:*
         version: link:packages/core
-      '@oui/hooks':
+      '@kysonui/hooks':
         specifier: workspace:*
         version: link:packages/hooks
-      '@oui/theme':
+      '@kysonui/theme':
         specifier: workspace:*
         version: link:packages/theme
-      '@oui/utils':
+      '@kysonui/utils':
         specifier: workspace:*
         version: link:packages/utils
       lodash-es:
@@ -94,7 +94,7 @@ importers:
 
   packages/core:
     dependencies:
-      '@oui/components':
+      '@kysonui/components':
         specifier: workspace:*
         version: link:../components
 
@@ -106,7 +106,7 @@ importers:
 
   packages/hooks:
     dependencies:
-      '@oui/core':
+      '@kysonui/core':
         specifier: workspace:*
         version: link:../core
 

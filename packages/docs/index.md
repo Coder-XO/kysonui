@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "oui"
+  name: "kysonui"
   text: "通用组件库"
   tagline: My great project tagline
   actions:

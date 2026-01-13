@@ -1,4 +1,4 @@
-import { OyButton } from '@oui/components';
+import { KyButton } from '@kysonui/components';
 import type { Plugin } from 'vue';
 
-export default [OyButton] as Plugin[];
+export default [KyButton] as Plugin[];

@@ -1,5 +1,5 @@
 {
-  "name": "@oui/hooks",
+  "name": "@kysonui/hooks",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@oui/core": "workspace:*"
+    "@kysonui/core": "workspace:*"
   }
 }

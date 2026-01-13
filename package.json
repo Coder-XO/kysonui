@@ -1,24 +1,24 @@
 {
-  "name": "@oui/workspace",
+  "name": "@kysonui/workspace",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm --filter @oui/play dev",
-    "docs:dev": "pnpm --filter @oui/docs dev",
-    "docs:build": "pnpm --filter @oui/docs build",
-    "docs:preview": "pnpm --filter @oui/docs preview",
+    "dev": "pnpm --filter @kysonui/play dev",
+    "docs:dev": "pnpm --filter @kysonui/docs dev",
+    "docs:build": "pnpm --filter @kysonui/docs build",
+    "docs:preview": "pnpm --filter @kysonui/docs preview",
     "typecheck": "vue-tsc -p tsconfig.json --noEmit",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "pnpm --filter @kysonui/components test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@oui/core": "workspace:*",
-    "@oui/hooks": "workspace:*",
-    "@oui/theme": "workspace:*",
-    "@oui/utils": "workspace:*",
+    "@kysonui/core": "workspace:*",
+    "@kysonui/hooks": "workspace:*",
+    "@kysonui/theme": "workspace:*",
+    "@kysonui/utils": "workspace:*",
     "lodash-es": "^4.17.22",
     "vue": "^3.5.26"
   },
